@@ -1,5 +1,0 @@
-Sitemap: http://ericlybbert.github.io/sitemap.xml
-Sitemap: http://ericlybbert.github.io/news-sitemap.xml
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
