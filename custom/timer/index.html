@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Timer</title>
+        <link rel="stylesheet" type="text/css" href="main.css">       
+    </head> 
+    <body>
+        <audio id="audio" src="beep.wav" autostart="false" ></audio>
+        
+        <div class="positionCameras">
+            <ul>
+                <li title="Move Up" class="cameraLeft" id="cameraUp" onclick="timerup();"></li>
+                <li title="Move Down" class="cameraRight" id="cameraDown" onclick="timerdown();"></li>
+            </ul>
+        </div>
+        <p><span id="counter">10</span> <a  onclick="timertoggle();" id="timertoggle" class="big-button bigblue">Start Timer</a></p>
+        <div class="icono-reset" onclick="timerreset();"></div>
+        <script src="main.js"></script>
+    </body>
+</html>
+<!-- Localized -->

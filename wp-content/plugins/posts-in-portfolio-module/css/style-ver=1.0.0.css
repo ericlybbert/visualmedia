@@ -1,0 +1,11 @@
+/*None-dynamic mobile fix*/
+@media only screen and (max-width: 980px) {
+.et_pb_blog_portfolio_0 .et_pb_portfolio_item .post-meta, .et_pb_blog_portfolio_0 .et_pb_portfolio_item .post-meta a{
+    font-size: 18px!important;
+    line-height: 19px!important;
+    letter-spacing: normal !important;
+}
+.et_pb_blog_portfolio_0 .et_pb_portfolio_item h2, .et_pb_blog_portfolio_0 .et_pb_portfolio_item h2 a{
+    font-size: 18px!important;
+    line-height: 19px!important;
+}
