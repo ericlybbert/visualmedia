@@ -1,0 +1,5 @@
+Sitemap: http://www.visualsociety.org/sitemap.xml
+Sitemap: http://www.visualsociety.org/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
